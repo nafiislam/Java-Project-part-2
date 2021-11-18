@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #933735; -fx-border-color: #4f81bb;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchClubsController">
+   <children>
+      <Button fx:id="maximumSalary" layoutX="214.0" layoutY="53.0" mnemonicParsing="false" onAction="#maximumSalary" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Maximum Salary" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="maximumHeight" layoutX="215.0" layoutY="192.0" mnemonicParsing="false" onAction="#maximumHeight" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Maximum Height" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="maximumAge" layoutX="215.0" layoutY="128.0" mnemonicParsing="false" onAction="#maximumAge" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Maximum Age" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="totalYearlySalary" layoutX="215.0" layoutY="263.0" mnemonicParsing="false" onAction="#totalYearlySalary" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Total Yearly Salary" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="44.0" layoutY="328.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Back" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

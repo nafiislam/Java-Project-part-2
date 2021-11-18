@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #933735;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BuyController">
+   <children>
+      <TableView fx:id="tableView" layoutX="21.0" layoutY="20.0" prefHeight="500.0" prefWidth="900.0" />
+      <Button fx:id="buy" layoutX="373.0" layoutY="538.0" mnemonicParsing="false" onAction="#buy" prefHeight="50.0" prefWidth="163.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Buy" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="30.0" layoutY="532.0" mnemonicParsing="false" onAction="#back" prefHeight="53.0" prefWidth="126.0" style="-fx-background-color: #F79446;" text="Back" textFill="#4f81bb">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

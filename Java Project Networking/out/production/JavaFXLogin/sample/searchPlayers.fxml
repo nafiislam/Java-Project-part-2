@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #933735; -fx-border-color: #4f81bb;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SearchPlayersController">
+   <children>
+      <Button fx:id="byPlayerName" layoutX="204.0" layoutY="43.0" mnemonicParsing="false" onAction="#byPlayerName" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="By Player Name" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="byPosition" layoutX="205.0" layoutY="182.0" mnemonicParsing="false" onAction="#byPosition" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="By Position" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="byClubAndCountry" layoutX="205.0" layoutY="118.0" mnemonicParsing="false" onAction="#byClubAndCountry" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="By Club and Country" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="countryWisePlayerCount" layoutX="205.0" layoutY="325.0" mnemonicParsing="false" onAction="#countryWisePlayerCount" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Country-wise player count" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="bySalaryRange" layoutX="205.0" layoutY="253.0" mnemonicParsing="false" onAction="#bySalaryRange" prefHeight="37.0" prefWidth="242.0" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="By Salary Range" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="back" layoutX="34.0" layoutY="318.0" mnemonicParsing="false" onAction="#back" style="-fx-background-color: #F79446; -fx-border-color: #4f81bb;" text="Back" textFill="#4f81bb">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
